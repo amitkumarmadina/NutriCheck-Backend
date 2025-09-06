@@ -307,7 +307,9 @@ Total Fat: 4g
 Sodium: 200mg
 Total Carbohydrate: 35g
 Dietary Fiber: 3g
-Protein: 4g"""
+Protein: 4g""",
+
+
         ]
     
     async def extract_text_from_image(self, image_bytes: bytes) -> Dict[str, Any]:

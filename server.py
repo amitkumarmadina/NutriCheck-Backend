@@ -12,7 +12,6 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from PIL import Image
 import asyncio
 import random
-
 app = FastAPI(
     title="Health Awareness Label Scanner API",
     description="Scan food labels and analyze ingredient health risks",
